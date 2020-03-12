@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>TEDxESSECBusinessSchool</title>
+    <meta name="title" content="TEDxESSECBusinessSchool">
+    <meta name="description" content="Le 27 mai 2020 sur le campus de l'ESSEC">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="build/tailwind.css">
+
+    <!--Fontawesome-->
+    <script src="https://kit.fontawesome.com/2bdc394e32.js" crossorigin="anonymous"></script>
+
+    <!--Favicon-->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+    <!--Facebook-->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tedxessecbusinessschool.fr">
+    <meta property="og:title" content="TEDxESSECBusinessSchool">
+    <meta property="og:description" content="Le 27 mai 2020 sur le campus de l'ESSEC">
+    <meta property="og:image" content="https://tedxessecbusinessschool.fr/images/social.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://tedxessecbusinessschool.fr">
+    <meta property="twitter:title" content="TEDxESSECBusinessSchool">
+    <meta property="twitter:description" content="Le 27 mai 2020 sur le campus de l'ESSEC">
+    <meta property="twitter:image" content="https://tedxessecbusinessschool.fr/images/social.png">
+
+</head>
+
+<body class="bg-black">
+    <!--style="background-color: #6494CE;"-->
+
+
+    <!--Beginning of the header-->
+    <div class="hidden md:inline-flex w-full fixed flex flex-row justify-between bg-transparent md:bg-black">
+
+        <a href="index.html"><img src="images/tedxessec.png" alt=""
+                class="px-3 py-4 ml-3 h-20 flex-none"></a>
+
+        <div class=" h-20 mr-8 flex flex-row justify-center items-center text-white flex-shrink">
+            <a href="edition2020.html" class="px-4 text-xl font-bold hover:text-tedred">Édition 2020</a>
+            <a href="billetterie.html" class="px-4 text-xl font-bold hover:text-tedred">Billetterie</a>
+            <a href="oldeditions.html" class="hidden xl:inline px-4 text-xl font-bold hover:text-tedred">Talks</a>
+            <a href="ourteam.html" class="hidden xl:inline px-4 text-xl font-bold hover:text-tedred">Notre équipe</a>
+            <a href="aboutted.html" class="hidden lg:inline px-4 text-xl font-bold hover:text-tedred">About TED</a>
+        </div>
+
+    </div>
+
+    <div class="md:hidden w-full fixed flex flex-col justify-center items-end">
+        <div class="w-full flex flex-row justify-around items-center self-center bg-black">
+            <a href="index.html"><img src="images/tedxvertical.png" alt=""
+                    class="m-2 w-64 bg-black"></a>
+
+            <div class="dropdown">
+                <img src="images/dropdownted.png" alt="" onclick="myFunction()" class="dropbtn m-2 w-16 h-16">
+            </div>
+
+        </div>
+
+        <div id="myDropdown"
+            class="dropdown-content m-2 flex flex-col justify-center items-center bg-nitiatblack rounded-lg shadow-xl">
+            <a href="edition2020.html"
+                class="w-40 bg-black text-center py-3 px-3 text-white text-xl font-bold rounded-t-lg hover:bg-tedred">Édition
+                2020</a>
+            <a href="billetterie.html"
+                class="w-40 bg-black text-center py-3 px-3 text-white text-xl font-bold hover:bg-tedred">Billetterie</a>
+            <a href="oldeditions.html"
+                class="w-40 bg-black text-center py-3 px-3 text-white text-xl font-bold hover:bg-tedred">Talks</a>
+            <a href="ourteam.html"
+                class="w-40 bg-black text-center py-3 px-3 text-white text-xl font-bold hover:bg-tedred">Notre
+                équipe</a>
+            <a href="aboutted.html"
+                class="w-40 bg-black text-center py-3 px-3 text-white text-xl font-bold hover:bg-tedred">About TED</a>
+        </div>
+
+        <script>
+            /* When the user clicks on the button, toggle between hiding and showing the dropdown content */
+            function myFunction() {
+                document.getElementById("myDropdown").classList.toggle("show");
+            }
+
+            // Close the dropdown menu if the user clicks outside of it
+            window.onclick = function (event) {
+                if (!event.target.matches('.dropbtn')) {
+                    var dropdowns = document.getElementsByClassName("dropdown-content");
+                    var i;
+                    for (i = 0; i < dropdowns.length; i++) {
+                        var openDropdown = dropdowns[i];
+                        if (openDropdown.classList.contains('show')) {
+                            openDropdown.classList.remove('show');
+                        }
+                    }
+                }
+            }
+        </script>
+
+    </div>
+    <!--End of the header-->
+
+    <div class="flex flex-col justify-center items-center text-gray-200 font-hairline">
+
+
+
+        <!--Description of our missions-->
+
+        <div id="spacer" class="h-28"></div>
+
+        <div class="h-auto flex flex-col md:flex-row justify-center items-center ">
+
+            <div class="w-full sm:w-96 md:w-96 lg:w-120 text-left lg:mr-12 px-6 lg:px-0">
+                <h1 class="text-4xl xs:text-5xl lg:text-6xl font-bold leading-none">Un TEDx talk</h1>
+
+                <div class="h-2 md:h-4"></div>
+
+                <h2 class="text-2xl xs:text-3xl lg:text-4xl font-bold leading-tight">en plein coeur de l'ESSEC.</h2>
+
+                <div class="h-6"></div>
+
+                <p class="text-lg lg:text-2xl"><span class="font-semibold">ESSEC Initiatives</span> organise le 27 mai
+                    2020 son quatrième TEDx. 8 speakers, 500 spectateurs, <br class="hidden xl:inline">3000 petits
+                    fours... pour une soirée que vous n'êtes pas prêts d'oublier.</p>
+
+            </div>
+
+            <div class="h-6 md:h-0"></div>
+
+            <img src="images/ted.png" alt="" class="max-w-xs md:max-w-lg xl:max-w-2xl xl:pr-8">
+
+        </div>
+
+        <div id="spacer" class="h-12 md:h-20"></div>
+
+        <div id="deezer" class="w-full bg-tedred h-20 flex flex-row justify-center items-center">
+            <h1 class="text-lg lg:text-2xl font-light text-white mr-3"><span class="hidden md:inline">Un évènement
+                </span>sponsorisé par</h1>
+            <img src="images/deezerwhite.png" width="130px" alt="" class="pb-1">
+        </div>
+
+
+
+
+
+        <div id="spacer" class="h-12"></div>
+
+
+
+
+        <!--Some TEDx talks-->
+
+        <h1 class="xs:text-2xl md:text-4xl font-bold text-center px-4">Un TEDx à l'ESSEC, à quoi ça ressemble ?</h1>
+        <h2 class="xs:text-xl md:text-2xl text-center px-4">Quelques talks piochés parmi les dernières éditions du
+            TEDxESSECBusinessSchool</h2>
+        <div id="spacer" class="h-5"></div>
+        <button class="bg-transparent font-medium text-lg block text-white px-8 py-2 rounded-lg hover:text-tedred border border-white hover:border-tedred outline-none"><a href="oldeditions.html">Voir l'intégralité des talks</a></button>
+        
+
+        <div id="spacer" class="h-8"></div>
+
+        <iframe class="w-72 xs:w-88 md:w-128 h-48 md:h-72" src="https://www.youtube.com/embed/nEw3tiDY8js"
+            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+
+        <div id="spacer" class="h-12"></div>
+
+        <iframe class="w-72 xs:w-88 md:w-128 h-48 md:h-72" src="https://www.youtube.com/embed/YfLvotXL7lc"
+            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+
+
+
+
+
+        <div id="spacer" class="h-12 md:h-20"></div>
+
+        <div id="" class="w-full text-gray-200 h-20 flex flex-row justify-center items-center bg-tedred text-center">
+
+            <p class="hidden md:inline md:text-2xl font-normal">⏰ &nbsp;Plus que&nbsp;</p>
+
+            <p id="countdown" class="md:text-2xl font-bold"></p>
+
+            <script>
+                // Set the date we're counting down to
+                var countDownDate = new Date("May 27, 2020 19:00:00").getTime();
+
+                // Update the count down every 1 second
+                var x = setInterval(function () {
+
+                    // Get today's date and time
+                    var now = new Date().getTime();
+
+                    // Find the distance between now and the count down date
+                    var distance = countDownDate - now;
+
+                    // Time calculations for days, hours, minutes and seconds
+                    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                    // Display the result in the element with id="countdown"
+                    document.getElementById("countdown").innerHTML = days + " jours, " + hours + " heures, " +
+                        + minutes + " minutes, et " + seconds + " secondes...";
+
+                    // If the count down is finished, write some text
+                    if (distance < 0) {
+                        clearInterval(x);
+                        document.getElementById("countdown").innerHTML = "EXPIRED";
+                    }
+                }, 1000);
+            </script>
+        </div>
+
+        <div id="spacer" class="h-12"></div>
+
+
+
+
+        <h1 class="xs:text-2xl md:text-4xl font-bold text-center">Qu'est-ce que TEDx ?</h1>
+        <h2 class="xs:text-xl md:text-2xl text-center px-4">Un mouvement international qui ouvre les esprits.</h2>
+        <div id="spacer" class="h-5"></div>
+        <button class="bg-transparent font-medium text-lg block text-white px-8 py-2 rounded-lg hover:text-tedred border border-white hover:border-tedred outline-none"><a href="aboutted.html">En savoir plus</a></button>
+
+        <div id="spacer" class="h-8"></div>
+
+        <iframe class="w-72 xs:w-88 md:w-128 h-48 md:h-72" src="https://www.youtube.com/embed/JSP7GPU3Eic"
+            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+
+        <div id="spacer" class="h-20"></div>
+
+
+
+    </div>
+
+
+    <!--Complementary information-->
+
+    <footer class="px-8 md:px-10 lg:px-20 xl:px-40 bg-black text-gray-600 text-sm"
+        style="background-image: url(images/rocket.png);background-position:center;background-size:cover">
+
+        <div class="w-full h-8"></div>
+
+        <div class="flex flex-col md:flex-row justify-around items-start">
+            <div class="w-full md:w-1/4 md:px-6 flex flex-col justify-center items-justify">
+                <h3 class="text-lg font-bold text-gray-500">Mentions légales</h3>
+
+                <div class="h-1"></div>
+
+                <h4 class="font-bold">Directeur de la publication :</h4>
+                <p>Grégoire Deshusses</p>
+
+                <div class="h-2"></div>
+
+                <p><span class="font-bold">Éditeur :</span> Ce site est produit par ESSEC Initiatives. Pour toute
+                    question relative au site, contactez essecinitiatives@gmail.com.</p>
+            </div>
+
+            <div id="spacer" class="h-4 md:h-0"></div>
+
+            <div class="w-full md:w-1/4 md:px-2 flex flex-col justify-center items-justify">
+                <h3 class="text-lg font-bold text-gray-500">À propos de l'association</h3>
+
+                <div class="h-1"></div>
+
+                <p>ESSEC Initiatives est une association étudiante (Siren: 418 278 412 R.C.S. Paris) dépendante de
+                    l'École Supérieure des Sciences Économiques et Commerciales. Son siège social est au 3 Avenue
+                    Bernard Hirsch, 95000 Cergy.</p>
+            </div>
+
+            <div id="spacer" class="h-4 md:h-0"></div>
+
+            <div class="w-full md:w-1/4 md:px-6 flex flex-col justify-center items-justify">
+                <h3 class="text-lg font-bold text-gray-500">Nous rejoindre</h3>
+
+                <div class="h-1"></div>
+
+                <p>L'association est réservée aux étudiants de l'ESSEC. Quiconque peut présenter sa candidature aux deux
+                    sessions annuelles de recrutement ayant lieu en Octobre et en Mars.</p>
+            </div>
+
+            <div id="spacer" class="h-4 md:h-0"></div>
+
+            <div class="w-full md:w-1/4 flex flex-col justify-center items-justify">
+                <h3 class="text-lg font-bold text-gray-500">Sur les réseaux</h3>
+
+                <div>
+                    <button class="text-3xl inline-block bg-transparent mx-1 hover:text-gray-800 outline-none"><a
+                            href="https://fr.linkedin.com/company/essec-initiatives"><i
+                                class="fab fa-linkedin-in"></i></a></button>
+
+                    <button class="text-3xl inline-block bg-transparent mx-1 hover:text-gray-800 outline-none"><a
+                            href="https://fr-fr.facebook.com/essec.initiatives/"><i
+                                class="fab fa-facebook-f"></i></a></button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="w-full h-8"></div>
+
+    </footer>
+
+</body>
+
+</html>
